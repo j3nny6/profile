@@ -3,6 +3,7 @@
 }
 main {
   text-align: center;
+  
 }
 body{
    background-color: rgb(81, 133, 171);
@@ -14,25 +15,35 @@ body{
     border: 5px solid rgb(163, 206, 238);
    display: inline-block;
    vertical-align: top;
-   width: 45%;
+   width: 750px;
    text-align: left;
-   margin-top: 35px;
-   margin-right: 35px;
+   color: rgba(78, 153, 197, 0.693);
+   margin: 15px;
+   margin-top: 50px;
+
 }
 .cardt {
-    padding : 10px;
-    background-color: rgb(190, 234, 255);
+    padding : 0px;
+    background-color: rgb(239, 246, 251);
     text-align: center;
-    border-radius: 200px;
-    color: rgb(70, 110, 167);
+    border-radius: 270px;
+    color: rgb(101, 136, 185);
     width: 250px;
-    margin: auto;
     margin-top: -100px;
+    border: 5px solid rgb(167, 211, 245);
+    position:absolute;
+    top: 27%;
+    left: 43%;
     
 }
 .footer-content {
+    padding: 15px;
+    background-color: rgb(127, 175, 212);
+    border-radius: 40px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 30%;
    text-align: center;
-   margin-top: 20px;
+   margin-left: 35%;
 }
 .header {
    color: rgb(255, 255, 255);
@@ -40,9 +51,22 @@ body{
    text-align: center;
    background-color: rgb(127, 175, 212);
    border-radius: 20px;
-   width: 100%;
+   width: 50%;
    padding-top: 20px;
-   padding-bottom: 100px;
-
-   
+   padding-bottom: 100px;  
+   position:absolute;
+   top: 20px;
+   right: 25%;
+   border: 5px solid rgb(146, 197, 232);
+}
+.tag {
+    padding : 10px;
+    background-color: rgb(97, 166, 207);
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.image {
+    margin-top: 280px;
+    margin-left: 530px;
+    border-radius: 50%;
 }
